@@ -1,6 +1,6 @@
 # Problem to find the max between ( 3,4)
 # Logic Building Formula
-# 1. user input -> two integers
+# 1. user input -> two intergers
 # 2. o/p -> int1 which ever is greater max number it will return.
 # 31.4 or 41.34 - float
 

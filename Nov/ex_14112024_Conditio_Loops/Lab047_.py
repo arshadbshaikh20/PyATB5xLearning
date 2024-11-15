@@ -13,12 +13,16 @@
 # Step 3. Write the logic
 
 age = int(input("Enter the age"))
-print("Can go to the Club"if age >= 21 else "Cannot go to the Club")
+
+if age >= 21:
+    print("Can go to the Club")
+else:
+    print("Cannot go to the Club")
 
 # Step 4. Check for the edge cases.
 # We should consider edge cases such as :
 # Negative ages or extremely high values -> program will break
-# Non-numeric input -> ABC
+# Non- numeric input -> ABC
 # Age which is valid. > 130
 
 # Step 5. Optimize the code
